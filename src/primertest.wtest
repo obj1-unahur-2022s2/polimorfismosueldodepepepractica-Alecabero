@@ -1,0 +1,16 @@
+
+import pepe.*
+import bonos.*
+import categorias.*
+
+describe "primer test " {
+	test "inicial " {
+		pepe.categoria(cadete)
+		pepe.bonoResultado(bonoMontoFijo)
+		pepe.bonoPresentismo(bonoPresentismoNormal)
+		pepe.cantidadDeFaltas(3)
+		
+		assert.aquals(208000,pepe.sueldo())
+	}
+
+}

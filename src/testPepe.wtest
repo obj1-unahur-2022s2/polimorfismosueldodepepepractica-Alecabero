@@ -8,10 +8,10 @@ describe "sueldo pepe" {
 		 * correspondientes en el objeto pepe. 
 		 * Descomentar las cuatro líneas que siguen para que el test funcione correctamente. 
 		 */
-//		pepe.setCategoria(cadete)
-//		pepe.setBonoResultado(bonoMontoFijo)
-//		pepe.setBonoPresentismo(bonoPresentismoNormal)
-//		pepe.setCantidadDeFaltas(3)
+		pepe.categoria(cadete)
+	pepe.bonoResultado(bonoMontoFijo)
+	pepe.bonoPresentismo(bonoPresentismoNormal)
+	pepe.cantidadDeFaltas(3)
 		
 		assert.equals(20000 + 800 + 0, pepe.sueldo())
 	}
